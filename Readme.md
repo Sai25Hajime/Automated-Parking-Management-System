@@ -1,7 +1,7 @@
 # 🚗 Automated Parking Management System
 This project was developed as our Semester 4 Mini Project. It is a web-based Automated Parking Management System that allows users to view available parking slots in real time using Django and OCR integration.
 
---
+---
 
 # 🛠️ Tech Stack
 **Frontend:** HTML, CSS, Javascript.
@@ -10,7 +10,7 @@ This project was developed as our Semester 4 Mini Project. It is a web-based Aut
 
 **OCR:** Pytesseract (Python wrapper for Tesseract OCR)
 
---
+---
 # 🧠 How It Works
 The website allows users to view available parking slots in a selected mall.
 
@@ -22,14 +22,14 @@ Slot occupancy
 
 Slot availability is updated in real-time on the frontend.
 
---
+---
 
 # 📷 OCR Integration
 Pytesseract processes images from a camera to scan and extract pictures of license plate numbers or relevant vehicle information.
 
 This information is matched against the slot allocation logic to track active parking slots.
 
---
+---
 
 # 🔍 Features
 Real-time parking slot updates
@@ -40,7 +40,7 @@ OCR-based number plate recognition (via Pytesseract)
 
 Django-powered backend with periodic updates (every 15 seconds)
 
---
+---
 
 # Screenshots and Info
 This website uses HTML, CSS, and the Django framework for the backend.
@@ -54,6 +54,8 @@ This is the main page for the website. The user can see the available parking sl
 ![image](https://github.com/Shibhya1/MiniProjectsem4/assets/123581067/d8a8d2ca-f651-48bb-94fa-59228f7fb6a5)
 
 The backend requests information from the Pytesseract OCR every 15 seconds and will update relevant details.
+
+---
 
 # 📁 Project Setup
 1) Clone the repository:
