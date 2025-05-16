@@ -65,7 +65,7 @@ The backend requests information from the Pytesseract OCR every 15 seconds and w
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-3.Run the Django server:
+3. Run the Django server:
   ```bash
   python manage.py runserver
 
