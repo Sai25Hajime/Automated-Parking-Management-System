@@ -58,21 +58,17 @@ The backend requests information from the Pytesseract OCR every 15 seconds and w
 ---
 
 # 📁 Project Setup
-1) Clone the repository:
-
-```bash
+1. Clone the repository:
+   ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
-
-2) Install dependencies:
-
-```bash
+2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
+3.Run the Django server:
+  ```bash
+  python manage.py runserver
 
-3) Run the Django server:
-
-```bash
-   python manage.py runserver
 ---
 
 # Contributors
