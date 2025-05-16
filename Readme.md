@@ -16,11 +16,11 @@ The website allows users to view available parking slots in a selected mall.
 
 OCR data is fetched via Pytesseract every 15 seconds, which updates the backend database with:
 
-Current parked vehicles
+✅ Current parked vehicles
 
-Slot occupancy
+✅ Slot occupancy
 
-Slot availability is updated in real-time on the frontend.
+✅ Slot availability is updated in real-time on the frontend.
 
 ---
 
@@ -32,13 +32,13 @@ This information is matched against the slot allocation logic to track active pa
 ---
 
 # 🔍 Features
-Real-time parking slot updates
+✅ Real-time parking slot updates
 
-Visual display of slot availability
+✅ Visual display of slot availability
 
-OCR-based number plate recognition (via Pytesseract)
+✅ OCR-based number plate recognition (via Pytesseract)
 
-Django-powered backend with periodic updates (every 15 seconds)
+✅ Django-powered backend with periodic updates (every 15 seconds)
 
 ---
 
@@ -66,9 +66,13 @@ The backend requests information from the Pytesseract OCR every 15 seconds and w
    ```bash
    pip install -r requirements.txt
 3. Run the Django server:
-  ```bash
-  python manage.py runserver
+   ```bash
+   python manage.py runserver
 
 ---
 
-# Contributors
+# 🤝 Contributors/Collaborators
+- [Shibhya Kaimal (@Shibhya1)](https://github.com/Shibhya1)
+- [Alfred Vembil](https://www.linkedin.com/in/alfred-vembil-679073343/)
+- [Saileen Fernandes (@Sai25Hajime)](https://github.com/Sai25Hajime)
+- [Yohan Mavely (@BlueLightningWizard)](https://github.com/BlueLightningWizard) 
